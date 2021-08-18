@@ -1,0 +1,92 @@
+:root {
+  --navbar-height: 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+/* can chinh */
+
+.ma-left-8 {
+  margin-left: 8px;
+}
+
+.ma-right-8 {
+  margin-right: 8px;
+}
+.ma-right-4 {
+  margin-right: 4px;
+}
+/* dac biet */
+
+.disable {
+  display: none !important;
+}
+
+.nav-item {
+  color: #606060;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+}
+
+.item-active {
+  color: var(--item-active);
+}
+
+.fade-in {
+  animation: sideFadeIn ease 0.4s;
+}
+
+.fade-out {
+  animation: sideFadeOut ease 0.4s;
+}
+
+/* animation */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes truotphai {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes sideFadeIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sideFadeOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0.2;
+  }
+}
