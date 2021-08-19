@@ -437,6 +437,7 @@ yt-icon.style-scope.ytd-button-renderer {
   display: flex;
   align-items: center;
   color: #909090;
+  flex-wrap: wrap;
 }
 .video-nav-right {
   margin-left: 10px;

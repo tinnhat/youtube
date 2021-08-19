@@ -49,6 +49,66 @@
   .content__navbar.d-flex.flex-column.p-0.position-fixed {
     display: none !important;
   }
+  .col-xl-4.col-lg-12.col-md-12.col-sm-12.col-12,
+  .col-xl-8.col-lg-12.col-md-12.col-sm-12.col-12 {
+    padding: 0;
+  }
+  iframe {
+    height: 220px;
+  }
+  .video-box-view {
+    flex-direction: column;
+  }
+  .video-view {
+    white-space: nowrap;
+    font-size: 13px;
+  }
+  .video-box-common {
+    white-space: nowrap;
+  }
+  .video-like-dislike::before {
+    display: none;
+  }
+  .video-share,
+  .video-save,
+  .video-dislike-box,
+  .video-like-box {
+    flex-direction: column;
+  }
+  .video-img {
+    width: 40px;
+    height: 40px;
+  }
+  .video-info-mid-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  .guest-img,
+  .video-input-img {
+    width: 40px;
+  }
+  .video-nav {
+    margin-top: 40px;
+  }
+  .bnt-sub {
+    white-space: nowrap;
+    padding: 6px 16px;
+  }
+  .noti-box {
+    right: 0;
+  }
+  .modal-slider {
+    display: none;
+  }
+  .modal-share-link-click {
+    white-space: nowrap;
+  }
+  .video-view {
+    margin: 10px 0;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .slick-navbar-under {
@@ -77,6 +137,9 @@
   .content__navbar.d-flex.flex-column.p-0.position-fixed {
     display: none !important;
   }
+  .video-view-date {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -89,6 +152,27 @@
   .slick-navbar-under {
     width: 99%;
   }
+  .video-view-date {
+    display: none;
+  }
+  .video-comment {
+    /* display: none; */
+    margin-bottom: 40px;
+  }
+  .video-img {
+    width: 40px;
+    height: 40px;
+  }
+  .guest-img,
+  .video-input-img {
+    width: 36px;
+  }
+  .more-guest-img {
+    width: 30px;
+  }
+  iframe {
+    height: 360px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .header-search-input {
@@ -100,4 +184,34 @@
   /* .youtube-box:last-child {
     margin-top: 20px;
   } */
+  .video-nav-img {
+    width: 160px;
+    height: 100%;
+  }
+  .video-nav-author {
+    margin: 0;
+  }
+  .video-view {
+    white-space: nowrap;
+  }
+  .video-view-date {
+    display: none;
+  }
+  .video-nav-view {
+    white-space: pre-line;
+  }
+  iframe {
+    height: 380px;
+  }
+  .video-img {
+    width: 40px;
+    height: 40px;
+  }
+  .guest-img,
+  .video-input-img {
+    width: 36px;
+  }
+  .more-guest-img {
+    width: 30px;
+  }
 }
