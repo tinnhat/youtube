@@ -12,7 +12,11 @@ body {
   scroll-behavior: smooth;
 }
 /* can chinh */
-
+.fullsize {
+  flex: 0 0 auto;
+  width: 90%;
+  margin: 0 auto;
+}
 .ma-left-8 {
   margin-left: 8px;
 }

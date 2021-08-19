@@ -113,13 +113,14 @@ yt-icon.style-scope.ytd-button-renderer {
   margin-right: 20px;
 }
 .video-img {
-  width: 100%;
-  height: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 .video-profile-img {
   border-radius: 50%;
   width: 100%;
+  height: 100%;
 }
 .video-box-contetn {
   margin-top: 20px;
@@ -396,6 +397,7 @@ yt-icon.style-scope.ytd-button-renderer {
 
 .video-nav {
   height: 2000px;
+  overflow: hidden;
 }
 .video-nav-box {
   display: flex;
