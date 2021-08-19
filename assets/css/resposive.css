@@ -173,6 +173,9 @@
   iframe {
     height: 360px;
   }
+.video-nav {
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .header-search-input {
