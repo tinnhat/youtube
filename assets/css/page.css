@@ -115,6 +115,7 @@ yt-icon.style-scope.ytd-button-renderer {
 .video-img {
   width: 60px;
   height: 60px;
+  cursor: pointer;
 }
 
 .video-profile-img {
@@ -133,6 +134,7 @@ yt-icon.style-scope.ytd-button-renderer {
   font-size: 14px;
   color: #030303;
   font-weight: 500;
+  cursor: pointer;
 }
 .video-profile-subcribe {
   margin: 0;
@@ -355,7 +357,7 @@ yt-icon.style-scope.ytd-button-renderer {
 .more-guest-cmt-text-hide,
 .more-guest-cmt-text {
   margin: 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   cursor: pointer;
   color: #065fd4;
@@ -945,4 +947,7 @@ ul {
 .active-btn-cmt {
   color: white !important;
   background-color: #065fd4 !important;
+}
+.video-iframe {
+  height: 540px;
 }
