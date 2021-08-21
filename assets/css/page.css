@@ -281,7 +281,7 @@ yt-icon.style-scope.ytd-button-renderer {
   letter-spacing: 1px;
   position: absolute;
   right: 110px;
-  margin-top: 6px;
+  bottom: -40px;
   border-radius: 2px;
 }
 .btn-cmt {
@@ -293,7 +293,7 @@ yt-icon.style-scope.ytd-button-renderer {
   letter-spacing: 1px;
   position: absolute;
   right: 0;
-  margin-top: 6px;
+  bottom: -40px;
   border-radius: 2px;
 }
 .video-input-profile {
@@ -933,4 +933,16 @@ label.toggle {
   border: none;
   padding: 14px 20px;
   color: #0077b5;
+}
+ol,
+ul {
+  padding-left: 0;
+}
+.video-guest-item {
+  margin-bottom: 14px;
+  list-style: none;
+}
+.active-btn-cmt {
+  color: white !important;
+  background-color: #065fd4 !important;
 }

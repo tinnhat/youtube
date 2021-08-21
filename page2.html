@@ -678,674 +678,346 @@
                         <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
                           <div class="input-box-pos">
                             <div class="input-box">
-                              <input type="text" class="input-cmt" placeholder="Bình luận công khai" />
+                              <form id="chat">
+                                <input type="text" class="input-cmt" placeholder="Bình luận công khai" name="todo" />
+
+                                <button class="btn-cmt disable">BÌNH LUẬN</button>
+                              </form>
+                              <button class="btn-huy-cmt disable">HỦY</button>
                             </div>
-                            <button class="btn-huy-cmt disable">HỦY</button>
-                            <button class="btn-cmt disable">BÌNH LUẬN</button>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="video-guest-cmt">
-                      <div class="row">
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                          <div class="guest-img-box">
-                            <img src="./assets/img/page/guest2.jpg" alt="" class="guest-img" />
-                          </div>
-                        </div>
-                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                          <div class="contact-guest-cmt">
-                            <p class="guest-name">
-                              Hieu Nguyen
-                              <svg
-                                viewBox="0 0 24 24"
-                                preserveAspectRatio="xMidYMid meet"
-                                focusable="false"
-                                class="style-scope yt-icon"
-                                style="display: block; width: 14px; height: 14px; opacity: 0.5"
-                              >
-                                <g viewBox="0 0 24 24" class="style-scope yt-icon">
-                                  <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
-                                  <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" class="style-scope yt-icon"></path>
-                                </g>
-                              </svg>
-                              <span>3 tuần trước</span>
-                            </p>
-                            <p class="guest-cmt-text">Hay quá…..</p>
-                            <div class="guest-interact">
-                              <div class="guest-interact-like-dislike">
-                                <div class="guest-interact-like">
-                                  <div>
-                                    <p class="like-hover">Thích</p>
-                                    <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                      ><svg
-                                        viewBox="0 0 24 24"
-                                        preserveAspectRatio="xMidYMid meet"
-                                        focusable="false"
-                                        class="style-scope yt-icon"
-                                        style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                      >
-                                        <g class="style-scope yt-icon">
-                                          <path
-                                            d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                      <ul class="video-guest-list">
+                        <li class="video-guest-item">
+                          <div class="row">
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                              <div class="guest-img-box">
+                                <img src="./assets/img/page/guest1.jpg" alt="" class="guest-img" />
+                              </div>
+                            </div>
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                              <div class="contact-guest-cmt">
+                                <p class="guest-name">
+                                  Thái Quỳnh Official
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    focusable="false"
+                                    class="style-scope yt-icon"
+                                    style="display: block; width: 14px; height: 14px; opacity: 0.5"
+                                  >
+                                    <g viewBox="0 0 24 24" class="style-scope yt-icon">
+                                      <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
+                                      <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" class="style-scope yt-icon"></path>
+                                    </g>
+                                  </svg>
+                                  <span>2 tuần trước</span>
+                                </p>
+                                <p class="guest-cmt-text">Lại siêu phẩm rồi anh ơiiii…</p>
+                                <div class="guest-interact">
+                                  <div class="guest-interact-like-dislike">
+                                    <div class="guest-interact-like">
+                                      <div>
+                                        <p class="like-hover">Thích</p>
+                                        <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                          ><svg
+                                            viewBox="0 0 24 24"
+                                            preserveAspectRatio="xMidYMid meet"
+                                            focusable="false"
                                             class="style-scope yt-icon"
-                                          ></path>
-                                        </g>
-                                      </svg>
-                                    </yt-icon>
-                                  </div>
-                                  <span> 260 </span>
-                                </div>
-                                <div class="guest-interact-disike">
-                                  <div>
-                                    <p class="like-hover">Không thích</p>
-                                    <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                      ><svg
-                                        viewBox="0 0 24 24"
-                                        preserveAspectRatio="xMidYMid meet"
-                                        focusable="false"
-                                        class="style-scope yt-icon"
-                                        style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                      >
-                                        <g class="style-scope yt-icon">
-                                          <path
-                                            d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                            style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                          >
+                                            <g class="style-scope yt-icon">
+                                              <path
+                                                d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                class="style-scope yt-icon"
+                                              ></path>
+                                            </g>
+                                          </svg>
+                                        </yt-icon>
+                                      </div>
+                                      <span> 690 </span>
+                                    </div>
+                                    <div class="guest-interact-disike">
+                                      <div>
+                                        <p class="like-hover">Không thích</p>
+                                        <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                          ><svg
+                                            viewBox="0 0 24 24"
+                                            preserveAspectRatio="xMidYMid meet"
+                                            focusable="false"
                                             class="style-scope yt-icon"
-                                          ></path>
-                                        </g>
-                                      </svg>
-                                    </yt-icon>
-                                  </div>
-                                  <span></span>
-                                </div>
-                              </div>
-                              <div class="user-reply">
-                                <p class="reply-title">PHẢN HỒI</p>
-                              </div>
-                            </div>
-                            <div class="user-reply-cmt disable">
-                              <div class="row">
-                                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                  <div class="box-user-reply-img">
-                                    <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                  </div>
-                                </div>
-                                <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                  <div class="user-reply-input-box">
-                                    <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                    <button class="user-reply-huy">HỦY</button>
-                                    <button class="user-reply-rep">PHẢN HỒI</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="more-guest-cmt">
-                              <p class="more-guest-cmt-text"><i class="more-guest-cmt-icon fas fa-sort-down"></i> Xem 351 câu trả lời</p>
-                              <p class="more-guest-cmt-text-hide disable"><i class="more-guest-cmt-icon fas fa-sort-up"></i> Ẩn 351 câu trả lời</p>
-                              <div class="more-guest-cmt-box disable">
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/guest3.jpg" alt="" class="more-guest-img" />
+                                            style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                          >
+                                            <g class="style-scope yt-icon">
+                                              <path
+                                                d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                class="style-scope yt-icon"
+                                              ></path>
+                                            </g>
+                                          </svg>
+                                        </yt-icon>
+                                      </div>
+                                      <span></span>
                                     </div>
                                   </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">NoName <span>1 tuần trước</span></p>
-                                    <p class="more-guest-cmt">đỉnh...</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span>69</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
+                                  <div class="user-reply">
+                                    <p class="reply-title">PHẢN HỒI</p>
+                                  </div>
+                                </div>
+                                <div class="user-reply-cmt disable">
+                                  <div class="row">
+                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                      <div class="box-user-reply-img">
+                                        <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
                                       </div>
                                     </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
-                                          </div>
-                                        </div>
+                                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                      <div class="user-reply-input-box">
+                                        <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                        <button class="user-reply-huy">HỦY</button>
+                                        <button class="user-reply-rep">PHẢN HỒI</button>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/guest4.jpg" alt="" class="more-guest-img" />
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">wibu <span>2 ngày trước</span></p>
-                                    <p class="more-guest-cmt">wibu...</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                <div class="more-guest-cmt">
+                                  <p class="more-guest-cmt-text"><i class="more-guest-cmt-icon fas fa-sort-down"></i> Xem 351 câu trả lời</p>
+                                  <p class="more-guest-cmt-text-hide disable"><i class="more-guest-cmt-icon fas fa-sort-up"></i> Ẩn 351 câu trả lời</p>
+                                  <div class="more-guest-cmt-box disable">
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>69</span>
+                                            </div>
                                           </div>
-                                          <span>12</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
-                                      </div>
-                                    </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
                                           </div>
                                         </div>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                </div>
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
-                                    <p class="more-guest-cmt">Lại phải cover hehehihi</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>12</span>
+                                            </div>
                                           </div>
-                                          <span>79</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
-                                      </div>
-                                    </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
                                           </div>
                                         </div>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                          <div class="guest-img-box">
-                            <img src="./assets/img/page/guest1.jpg" alt="" class="guest-img" />
-                          </div>
-                        </div>
-                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                          <div class="contact-guest-cmt">
-                            <p class="guest-name">
-                              Thái Quỳnh Official
-                              <svg
-                                viewBox="0 0 24 24"
-                                preserveAspectRatio="xMidYMid meet"
-                                focusable="false"
-                                class="style-scope yt-icon"
-                                style="display: block; width: 14px; height: 14px; opacity: 0.5"
-                              >
-                                <g viewBox="0 0 24 24" class="style-scope yt-icon">
-                                  <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
-                                  <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" class="style-scope yt-icon"></path>
-                                </g>
-                              </svg>
-                              <span>2 tuần trước</span>
-                            </p>
-                            <p class="guest-cmt-text">Lại siêu phẩm rồi anh ơiiii…</p>
-                            <div class="guest-interact">
-                              <div class="guest-interact-like-dislike">
-                                <div class="guest-interact-like">
-                                  <div>
-                                    <p class="like-hover">Thích</p>
-                                    <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                      ><svg
-                                        viewBox="0 0 24 24"
-                                        preserveAspectRatio="xMidYMid meet"
-                                        focusable="false"
-                                        class="style-scope yt-icon"
-                                        style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                      >
-                                        <g class="style-scope yt-icon">
-                                          <path
-                                            d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                                            class="style-scope yt-icon"
-                                          ></path>
-                                        </g>
-                                      </svg>
-                                    </yt-icon>
-                                  </div>
-                                  <span> 690 </span>
-                                </div>
-                                <div class="guest-interact-disike">
-                                  <div>
-                                    <p class="like-hover">Không thích</p>
-                                    <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                      ><svg
-                                        viewBox="0 0 24 24"
-                                        preserveAspectRatio="xMidYMid meet"
-                                        focusable="false"
-                                        class="style-scope yt-icon"
-                                        style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                      >
-                                        <g class="style-scope yt-icon">
-                                          <path
-                                            d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                                            class="style-scope yt-icon"
-                                          ></path>
-                                        </g>
-                                      </svg>
-                                    </yt-icon>
-                                  </div>
-                                  <span></span>
-                                </div>
-                              </div>
-                              <div class="user-reply">
-                                <p class="reply-title">PHẢN HỒI</p>
-                              </div>
-                            </div>
-                            <div class="user-reply-cmt disable">
-                              <div class="row">
-                                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                  <div class="box-user-reply-img">
-                                    <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                  </div>
-                                </div>
-                                <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                  <div class="user-reply-input-box">
-                                    <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                    <button class="user-reply-huy">HỦY</button>
-                                    <button class="user-reply-rep">PHẢN HỒI</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="more-guest-cmt">
-                              <p class="more-guest-cmt-text"><i class="more-guest-cmt-icon fas fa-sort-down"></i> Xem 351 câu trả lời</p>
-                              <p class="more-guest-cmt-text-hide disable"><i class="more-guest-cmt-icon fas fa-sort-up"></i> Ẩn 351 câu trả lời</p>
-                              <div class="more-guest-cmt-box disable">
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
-                                    <p class="more-guest-cmt">Lại phải cover hehehihi</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
                                                     class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>79</span>
+                                            </div>
                                           </div>
-                                          <span>20</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
-                                      </div>
-                                    </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
                                           </div>
                                         </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
-                                    <p class="more-guest-cmt">Lại phải cover hehehihi</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span>20</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
-                                      </div>
-                                    </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="row mt-16">
-                                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                    <div class="more-guest-img-box">
-                                      <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                    <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
-                                    <p class="more-guest-cmt">Lại phải cover hehehihi</p>
-                                    <div class="more-guest-cmt-box-nav">
-                                      <div class="guest-interact-like-dislike">
-                                        <div class="guest-interact-like">
-                                          <div>
-                                            <p class="like-hover">Thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span> 110 </span>
-                                        </div>
-                                        <div class="guest-interact-disike">
-                                          <div>
-                                            <p class="like-hover">Không thích</p>
-                                            <yt-icon class="style-scope ytd-toggle-button-renderer"
-                                              ><svg
-                                                viewBox="0 0 24 24"
-                                                preserveAspectRatio="xMidYMid meet"
-                                                focusable="false"
-                                                class="style-scope yt-icon"
-                                                style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
-                                              >
-                                                <g class="style-scope yt-icon">
-                                                  <path
-                                                    d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                                                    class="style-scope yt-icon"
-                                                  ></path>
-                                                </g>
-                                              </svg>
-                                            </yt-icon>
-                                          </div>
-                                          <span>20</span>
-                                        </div>
-                                      </div>
-                                      <div class="user-reply">
-                                        <p class="reply-title">PHẢN HỒI</p>
-                                      </div>
-                                    </div>
-                                    <div class="user-reply-cmt disable">
-                                      <div class="row">
-                                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                          <div class="box-user-reply-img">
-                                            <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
-                                          </div>
-                                        </div>
-                                        <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                          <div class="user-reply-input-box">
-                                            <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
-                                            <button class="user-reply-huy">HỦY</button>
-                                            <button class="user-reply-rep">PHẢN HỒI</button>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -1355,8 +1027,345 @@
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
+                        </li>
+                        <li class="video-guest-item">
+                          <div class="row">
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                              <div class="guest-img-box">
+                                <img src="./assets/img/page/guest1.jpg" alt="" class="guest-img" />
+                              </div>
+                            </div>
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                              <div class="contact-guest-cmt">
+                                <p class="guest-name">
+                                  Thái Quỳnh Official
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    focusable="false"
+                                    class="style-scope yt-icon"
+                                    style="display: block; width: 14px; height: 14px; opacity: 0.5"
+                                  >
+                                    <g viewBox="0 0 24 24" class="style-scope yt-icon">
+                                      <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
+                                      <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" class="style-scope yt-icon"></path>
+                                    </g>
+                                  </svg>
+                                  <span>2 tuần trước</span>
+                                </p>
+                                <p class="guest-cmt-text">Lại siêu phẩm rồi anh ơiiii…</p>
+                                <div class="guest-interact">
+                                  <div class="guest-interact-like-dislike">
+                                    <div class="guest-interact-like">
+                                      <div>
+                                        <p class="like-hover">Thích</p>
+                                        <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                          ><svg
+                                            viewBox="0 0 24 24"
+                                            preserveAspectRatio="xMidYMid meet"
+                                            focusable="false"
+                                            class="style-scope yt-icon"
+                                            style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                          >
+                                            <g class="style-scope yt-icon">
+                                              <path
+                                                d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                class="style-scope yt-icon"
+                                              ></path>
+                                            </g>
+                                          </svg>
+                                        </yt-icon>
+                                      </div>
+                                      <span> 690 </span>
+                                    </div>
+                                    <div class="guest-interact-disike">
+                                      <div>
+                                        <p class="like-hover">Không thích</p>
+                                        <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                          ><svg
+                                            viewBox="0 0 24 24"
+                                            preserveAspectRatio="xMidYMid meet"
+                                            focusable="false"
+                                            class="style-scope yt-icon"
+                                            style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                          >
+                                            <g class="style-scope yt-icon">
+                                              <path
+                                                d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                class="style-scope yt-icon"
+                                              ></path>
+                                            </g>
+                                          </svg>
+                                        </yt-icon>
+                                      </div>
+                                      <span></span>
+                                    </div>
+                                  </div>
+                                  <div class="user-reply">
+                                    <p class="reply-title">PHẢN HỒI</p>
+                                  </div>
+                                </div>
+                                <div class="user-reply-cmt disable">
+                                  <div class="row">
+                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                      <div class="box-user-reply-img">
+                                        <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                      </div>
+                                    </div>
+                                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                      <div class="user-reply-input-box">
+                                        <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                        <button class="user-reply-huy">HỦY</button>
+                                        <button class="user-reply-rep">PHẢN HỒI</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="more-guest-cmt">
+                                  <p class="more-guest-cmt-text"><i class="more-guest-cmt-icon fas fa-sort-down"></i> Xem 351 câu trả lời</p>
+                                  <p class="more-guest-cmt-text-hide disable"><i class="more-guest-cmt-icon fas fa-sort-up"></i> Ẩn 351 câu trả lời</p>
+                                  <div class="more-guest-cmt-box disable">
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>20</span>
+                                            </div>
+                                          </div>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
+                                          </div>
+                                        </div>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>20</span>
+                                            </div>
+                                          </div>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
+                                          </div>
+                                        </div>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-16">
+                                      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                        <div class="more-guest-img-box">
+                                          <img src="./assets/img/page/more1.jpg" alt="" class="more-guest-img" />
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                        <p class="more-guest-name">Thái Quỳnh <span>2 tuần trước</span></p>
+                                        <p class="more-guest-cmt">Lại phải cover hehehihi</p>
+                                        <div class="more-guest-cmt-box-nav">
+                                          <div class="guest-interact-like-dislike">
+                                            <div class="guest-interact-like">
+                                              <div>
+                                                <p class="like-hover">Thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span> 110 </span>
+                                            </div>
+                                            <div class="guest-interact-disike">
+                                              <div>
+                                                <p class="like-hover">Không thích</p>
+                                                <yt-icon class="style-scope ytd-toggle-button-renderer"
+                                                  ><svg
+                                                    viewBox="0 0 24 24"
+                                                    preserveAspectRatio="xMidYMid meet"
+                                                    focusable="false"
+                                                    class="style-scope yt-icon"
+                                                    style="cursor: pointer; display: block; width: 16px; height: 16px; opacity: 0.4; margin-right: 4px"
+                                                  >
+                                                    <g class="style-scope yt-icon">
+                                                      <path
+                                                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                                        class="style-scope yt-icon"
+                                                      ></path>
+                                                    </g>
+                                                  </svg>
+                                                </yt-icon>
+                                              </div>
+                                              <span>20</span>
+                                            </div>
+                                          </div>
+                                          <div class="user-reply">
+                                            <p class="reply-title">PHẢN HỒI</p>
+                                          </div>
+                                        </div>
+                                        <div class="user-reply-cmt disable">
+                                          <div class="row">
+                                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                              <div class="box-user-reply-img">
+                                                <img src="./assets/img/page/user.jpg" alt="" class="user-reply-cmt-img" />
+                                              </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                              <div class="user-reply-input-box">
+                                                <input type="text" class="user-reply-cmt-input" placeholder="Phản hồi công khai" />
+                                                <button class="user-reply-huy">HỦY</button>
+                                                <button class="user-reply-rep">PHẢN HỒI</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
