@@ -113,8 +113,8 @@ yt-icon.style-scope.ytd-button-renderer {
   margin-right: 20px;
 }
 .video-img {
-  width: 60px;
-  height: 60px;
+  width: 54px;
+  height: 54px;
   cursor: pointer;
 }
 
@@ -258,10 +258,11 @@ yt-icon.style-scope.ytd-button-renderer {
   margin: 0;
   margin-right: 20px;
 }
+
 .guest-img,
 .video-input-img {
   border-radius: 50%;
-  width: 46px;
+  width: 100%;
 }
 .input-box {
   width: 100%;
@@ -301,6 +302,8 @@ yt-icon.style-scope.ytd-button-renderer {
 .video-input-profile {
   display: flex;
   align-self: center;
+  width: 46px;
+  /* height: 46px; */
 }
 .input-box-pos {
   position: relative;
@@ -389,6 +392,10 @@ yt-icon.style-scope.ytd-button-renderer {
 .more-guest-img {
   width: 36px;
   border-radius: 50%;
+}
+.guest-img-box {
+  width: 40px;
+  height: 40px;
 }
 .more-guest-img-box {
   text-align: center;

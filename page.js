@@ -55,7 +55,7 @@ huyMain.addEventListener("click", () => {
 //check focus
 let chekcontent = 0;
 let a = document.querySelector(".input-cmt");
-a.addEventListener("focus", function () {
+a.addEventListener("input", function () {
   if (this.value == "") {
     repMain.classList.remove("active-btn-cmt");
   }
